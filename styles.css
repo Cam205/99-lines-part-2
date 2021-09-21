@@ -21,8 +21,9 @@ h3 {
     font-size: 20px;
     background-color: gold;
     color: white;
-    position: absolute;
-    left: 100px;
     border-radius: 20px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -3,9 +3,10 @@ function singSong() {
     let friends = ['Kj', 'Will', 'Davion', 'Cartier', 'Jamal'];
 
     for (f = 0; f < friends.length; f++) {
+        let songContainer = document.getElementById("song-container")
         let eachFriend = document.createElement('div') //Created div
         eachFriend.className = 'myFriends' //Give div a class name
-        document.body.appendChild(eachFriend)
+        songContainer.appendChild(eachFriend)
 
         let friendNames = document.createElement('h3')
         eachFriend.appendChild(friendNames)

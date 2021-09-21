@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.singbtn {
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: gold;
+    color: white;
+    position: absolute;
+    left: 100px;
+    border-radius: 20px;
+    cursor: pointer;
+}
